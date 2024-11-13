@@ -8,4 +8,4 @@ def test_case2(driver, search_keyword):
     search_box.send_keys(search_keyword)
     search_box.send_keys(Keys.RETURN)
     time.sleep(3)
-    print(f"Test case 2 완료")
+    print("Test case2 완료")
