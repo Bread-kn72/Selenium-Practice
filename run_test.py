@@ -8,7 +8,8 @@ driver = webdriver.Chrome()
 try:
     test_case1(driver)
     test_case2(driver, "김민재")
-    test_case3(driver)
+    test_case1(driver)
+    test_case2(driver, "손흥민")
 
 finally:
     driver.quit()
